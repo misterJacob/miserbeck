@@ -26,11 +26,11 @@ import QRCodeGenerator from "../pages/QRCodeGenerator";
 
 const App = () => {
 
-    window.oncontextmenu = function (event) {
-      event.preventDefault();
-      event.stopPropagation();
-      return true;
-    };
+    // window.oncontextmenu = function (event) {
+    //   event.preventDefault();
+    //   event.stopPropagation();
+    //   return true;
+    // };
 
   return (
     <ThemeProvider theme={theme}>
