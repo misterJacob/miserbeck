@@ -1,0 +1,35 @@
+.home-container {
+  background-color: rgb(208, 209, 209);
+  color: #fff;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 80vh;
+  background-blend-mode: multiply;
+  .landing-container {
+    background: url(../../public/assets/images/images/background-home.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  .main-section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 80vh;
+  }
+}

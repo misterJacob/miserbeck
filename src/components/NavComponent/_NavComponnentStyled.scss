@@ -1,0 +1,96 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  transition: all 0.6s ease-in-out;
+
+  &.open {
+    visibility: visible;
+    transform: translateX(0);
+    .nav-link {
+      transition: all 0.6s ease-in-out;
+      transform: translateX(0);
+    }
+  }
+  .nav-link-navigation {
+    height: 70%;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0px;
+    border-right: 0;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+    .underline-nav-item {
+      width: 100%;
+      height: 4px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: all 0.3s ease-in-out;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    h3 {
+      font-size: 1.2em;
+      margin: 0;
+    }
+    &:hover {
+      background-color: #fff;
+      color: #333;
+      .underline-nav-item {
+        background-color: #333;
+      }
+    }
+    &.active {
+      background-color: #fff;
+      color: #333;
+      .underline-nav-item {
+        background-color: #333;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .navigation {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 0.976);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform: translateX(-100%);
+    overflow: hidden;
+    z-index: 999;
+    .nav-link-navigation {
+      transition: transform 0.9s ease-in-out;
+      visibility: visible;
+      transform: translateX(-100vw);
+      height: 10rem;
+      width: 8rem;
+    }
+    &.open{
+        transform: translateX(0);
+        .nav-link-navigation {
+            transform: translateX(0);
+        }
+    }
+  }
+}

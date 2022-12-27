@@ -1,0 +1,54 @@
+footer {
+  background-color: rgb(223, 224, 225);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+
+  p {
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    font-weight: 700;
+    color: rgb(4, 1, 50);
+  }
+  .actual-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: rgba(4, 1, 50, 0.582);
+    }
+  }
+  small {
+    padding-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    padding: 0;
+  p {
+    font-size: 1.0rem;
+    margin: 0 1.2rem;
+    font-weight: 500;
+    color: rgb(4, 1, 50);
+  }
+  .actual-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      color: rgba(4, 1, 50, 0.582);
+    }
+  }
+  small {
+    padding-left: 0.4rem;
+  }
+    
+  }
+}
+
+  
+

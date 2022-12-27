@@ -1,0 +1,185 @@
+.contact-wrap{
+  background: linear-gradient(
+      45deg,
+      rgba(252, 255, 240, 0.2) 0%,
+      rgba(238, 238, 252, 0.3) 100%
+    ),
+    url(../../public/assets/images/images/jacob-reception.jpg) no-repeat center;
+  background-size: cover;
+  
+
+}
+.contact-container {
+  width: 100%;
+  max-width: 400px;
+  min-height: 80vh;
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 1.2rem 0;
+  }
+  .liner {
+    width: 80%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-right: 5rem;
+    border-radius: 50%;
+  }
+  .contacts-opcions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    .opcion {
+      background: grey;
+      margin-bottom: 0.5rem;
+      border-radius: 0.5rem;
+      display: flex;
+      width: 100%;
+      height: 3.5rem;
+      // justify-content:space-between;
+      // align-items: center;
+      position: relative;
+      h3 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+        padding-left: 0.5rem;
+      }
+      .icon {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 8px;
+        background: rgba(38, 38, 38, 0.269);
+        &:hover {
+          background: rgba(38, 38, 38, 0.5);
+          svg {
+            color: white;
+          }
+        }
+        a {
+          text-decoration: none;
+          svg {
+            height: 100%;
+            color: rgb(81, 81, 81);
+          }
+        }
+      }
+      p {
+        margin: 0;
+        padding-left: 0.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .image {
+        width: 2.8rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        &.increase {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%)scale(8);
+
+          z-index: 9;
+        }
+      }
+    }
+  }
+
+  .form-title {
+    background: rgb(105, 105, 105);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    h2 {
+      margin: 0;
+      color: whitesmoke;
+      text-align: center;
+    }
+    &:hover {
+      background: rgba(105, 105, 105, 0.5);
+    }
+  }
+  .form-container-wrap {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    
+    .form-container {
+      background: rgba(202, 201, 201, 0.5);
+      border-radius: 0.5rem;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin: 0.5rem 0;
+      transform: translateX(100%);
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      height: 0;
+      &.active {
+        transform: translateX(0);
+        height: auto;
+      }
+      input {
+        width: 80%;
+        height: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgb(121, 121, 121);
+        margin: 1rem 0;
+        padding: 0.5rem;
+        font-size: 1rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      textarea {
+        width: 80%;
+        height: 10rem;
+        border-radius: 5px;
+        border: 1px solid rgb(121, 121, 121);
+        margin: 1rem 0;
+        padding: 0.5rem;
+        font-size: 1rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      button {
+        width: 80%;
+        height: 2rem;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        margin: 1rem 0;
+        background: rgb(121, 121, 121);
+        color: white;
+        font-size: 1rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+
+        &:hover {
+          background: rgb(183, 183, 183);
+          color: rgb(48, 19, 19);
+        }
+      }
+    }
+  }
+}
