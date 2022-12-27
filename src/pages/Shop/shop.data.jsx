@@ -49,6 +49,41 @@ export const ShopData = [
         image: "scottspark/scott-spark (8).jpg",
         alt: "Scott Spark",
       },
+      {
+        id: 9,
+        image: "scottspark/scott-spark (9).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 10,
+        image: "scottspark/scott-spark (10).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 11,
+        image: "scottspark/scott-spark (11).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 12,
+        image: "scottspark/scott-spark (12).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 13,
+        image: "scottspark/scott-spark (13).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 14,
+        image: "scottspark/scott-spark (14).jpg",
+        alt: "Scott Spark",
+      },
+      {
+        id: 15,
+        image: "scottspark/scott-spark (15).jpg",
+        alt: "Scott Spark",
+      },
     ],
   },
   {
@@ -180,6 +215,56 @@ export const ShopData = [
         image: "scottgenius/scott-genius (6).jpg",
         alt: "Scott Genius",
       },
+      {
+        id: 7,
+        image: "scottgenius/scott-genius (7).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 8,
+        image: "scottgenius/scott-genius (8).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 9,
+        image: "scottgenius/scott-genius (9).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 10,
+        image: "scottgenius/scott-genius (10).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 11,
+        image: "scottgenius/scott-genius (11).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 12,
+        image: "scottgenius/scott-genius (12).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 13,
+        image: "scottgenius/scott-genius (13).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 14,
+        image: "scottgenius/scott-genius (14).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 15,
+        image: "scottgenius/scott-genius (15).jpg",
+        alt: "Scott Genius",
+      },
+      {
+        id: 16,
+        image: "scottgenius/scott-genius (16).jpg",
+        alt: "Scott Genius",
+      },
     ],
   },
   {
@@ -234,51 +319,51 @@ export const ShopData = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "BH RaceBike",
+    item: "BH RaceBike",
+    price: "400",
+    currency: "€",
+    condition: "good",
+    image: "bhrace/bh-racing-bike (1).jpg",
+    path: "bhrace",
+    slider: [
+      {
+        id: 1,
+        image: "bhrace/bh-racing-bike (1).jpg",
+        alt: "BH Racing Bike",
+      },
+      {
+        id: 2,
+        image: "bhrace/bh-racing-bike (2).jpg",
+        alt: "BH Racing Bike",
+      },
+      {
+        id: 3,
+        image: "bhrace/bh-racing-bike (3).jpg",
+        alt: "BH Racing Bike",
+      },
+      {
+        id: 4,
+        image: "bhrace/bh-racing-bike (4).jpg",
+        alt: "BH Racing Bike",
+      },
+      {
+        id: 5,
+        image: "bhrace/bh-racing-bike (5).jpg",
+        alt: "BH Racing Bike",
+      },
       {
         id: 6,
-        title: "BH RaceBike",
-        item: "BH RaceBike",
-        price: "400",
-        currency: "€",
-        condition: "good",
-        image: "bhrace/bh-racing-bike (1).jpg",
-        path: "bhrace",
-        slider: [
-          {
-            id: 1,
-            image: "bhrace/bh-racing-bike (1).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 2,
-            image: "bhrace/bh-racing-bike (2).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 3,
-            image: "bhrace/bh-racing-bike (3).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 4,
-            image: "bhrace/bh-racing-bike (4).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 5,
-            image: "bhrace/bh-racing-bike (5).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 6,
-            image: "bhrace/bh-racing-bike (6).jpg",
-            alt: "BH Racing Bike",
-          },
-          {
-            id: 7,
-            image: "bhrace/bh-racing-bike (7).jpg",
-            alt: "BH Racing Bike",
-          },
-        ],
+        image: "bhrace/bh-racing-bike (6).jpg",
+        alt: "BH Racing Bike",
       },
+      {
+        id: 7,
+        image: "bhrace/bh-racing-bike (7).jpg",
+        alt: "BH Racing Bike",
+      },
+    ],
+  },
 ];
