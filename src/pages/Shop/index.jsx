@@ -1,5 +1,5 @@
 import React from "react";
-import { ShopData } from "./shop.data";
+import { ShopData } from "../../components/data/shop.data";
 import { useNavigate, Outlet } from "react-router-dom";
 
 const Shop = () => {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { ShopData } from "../shop.data";
+import { ShopData } from "../../../components/data/shop.data";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 const ItemDisplay = () => {
