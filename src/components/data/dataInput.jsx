@@ -222,6 +222,51 @@ export const dataInput = [
             image: "scottgenius/scott-genius (6).jpg",
             alt: "Scott Genius",
           },
+          {
+            id: 7,
+            image: "scottgenius/scott-genius (7).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 8,
+            image: "scottgenius/scott-genius (8).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 9,
+            image: "scottgenius/scott-genius (9).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 10,
+            image: "scottgenius/scott-genius (10).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 11,
+            image: "scottgenius/scott-genius (11).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 12,
+            image: "scottgenius/scott-genius (12).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 13,
+            image: "scottgenius/scott-genius (13).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 14,
+            image: "scottgenius/scott-genius (14).jpg",
+            alt: "Scott Genius",
+          },
+          {
+            id: 16,
+            image: "scottgenius/scott-genius (16).jpg",
+            alt: "Scott Genius",
+          },
         ],
       },
       {
