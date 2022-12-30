@@ -323,93 +323,93 @@ export const dataInput = [
           },
         ],
       },
-      {
-        id: 7,
-        title: "Scott Spark",
-        item: "Scott Spark",
-        price: "1100",
-        currency: "€",
-        condition: "good",
-        image: "scottsparkCopy/scottSpark (1).jpg",
-        path: "scottsparkCopy",
-        slider: [
-          {
-            id: 1,
-            image: "scottspark/scottSpark (1).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 2,
-            image: "scottspark/scottSpark (2).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 3,
-            image: "scottspark/scottSpark (3).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 4,
-            image: "scottspark/scottSpark (4).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 5,
-            image: "scottspark/scottSpark (5).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 6,
-            image: "scottspark/scottSpark (6).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 7,
-            image: "scottspark/scottSpark (7).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 8,
-            image: "scottspark/scottSpark (8).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 9,
-            image: "scottspark/scottSpark (9).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 10,
-            image: "scottspark/scottSpark (10).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 11,
-            image: "scottspark/scottSpark (11).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 12,
-            image: "scottspark/scottSpark (12).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 13,
-            image: "scottspark/scottSpark (13).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 14,
-            image: "scottspark/scottSpark (14).jpg",
-            alt: "Scott Spark",
-          },
-          {
-            id: 15,
-            image: "scottspark/scottSpark (15).jpg",
-            alt: "Scott Spark",
-          },
-        ],
-      },
+      // {
+      //   id: 1,
+      //   title: "Scott Spark",
+      //   item: "Scott Spark",
+      //   price: "1100",
+      //   currency: "€",
+      //   condition: "good",
+      //   image: "scottsparkCopy/scottSpark_1.jpg",
+      //   path: "scottsparkCopy",
+      //   slider: [
+      //     {
+      //       id: 1,
+      //       image: "scottspark/scottSpark_1.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 2,
+      //       image: "scottspark/scottSpark_2.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 3,
+      //       image: "scottspark/scottSpark_3.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 4,
+      //       image: "scottspark/scottSpark_4.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 5,
+      //       image: "scottspark/scottSpark_5.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 6,
+      //       image: "scottspark/scottSpark_6.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 7,
+      //       image: "scottspark/scottSpark_7.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 8,
+      //       image: "scottspark/scottSpark_8.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 9,
+      //       image: "scottspark/scottSpark_9.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 10,
+      //       image: "scottspark/scottSpark_10.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 11,
+      //       image: "scottspark/scottSpark_11.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 12,
+      //       image: "scottspark/scottSpark_12.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 13,
+      //       image: "scottspark/scottSpark_13.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 14,
+      //       image: "scottspark/scottSpark_14.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //     {
+      //       id: 15,
+      //       image: "scottspark/scottSpark_15.jpg",
+      //       alt: "Scott Spark",
+      //     },
+      //   ],
+      // },
     ],
   },
   {
