@@ -56,6 +56,41 @@ export const dataInput = [
             image: "scottspark/scott-spark (8).jpg",
             alt: "Scott Spark",
           },
+          {
+            id: 9,
+            image: "scottspark/scott-spark (9).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 10,
+            image: "scottspark/scott-spark (10).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 11,
+            image: "scottspark/scott-spark (11).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 12,
+            image: "scottspark/scott-spark (12).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 13,
+            image: "scottspark/scott-spark (13).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 14,
+            image: "scottspark/scott-spark (14).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 15,
+            image: "scottspark/scott-spark (15).jpg",
+            alt: "Scott Spark",
+          },
         ],
       },
       {
@@ -285,6 +320,93 @@ export const dataInput = [
             id: 7,
             image: "bhrace/bh-racing-bike (7).jpg",
             alt: "BH Racing Bike",
+          },
+        ],
+      },
+      {
+        id: 7,
+        title: "Scott Spark",
+        item: "Scott Spark",
+        price: "1100",
+        currency: "€",
+        condition: "good",
+        image: "scottsparkCopy/scottSpark (1).jpg",
+        path: "scottsparkCopy",
+        slider: [
+          {
+            id: 1,
+            image: "scottspark/scottSpark (1).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 2,
+            image: "scottspark/scottSpark (2).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 3,
+            image: "scottspark/scottSpark (3).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 4,
+            image: "scottspark/scottSpark (4).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 5,
+            image: "scottspark/scottSpark (5).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 6,
+            image: "scottspark/scottSpark (6).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 7,
+            image: "scottspark/scottSpark (7).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 8,
+            image: "scottspark/scottSpark (8).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 9,
+            image: "scottspark/scottSpark (9).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 10,
+            image: "scottspark/scottSpark (10).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 11,
+            image: "scottspark/scottSpark (11).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 12,
+            image: "scottspark/scottSpark (12).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 13,
+            image: "scottspark/scottSpark (13).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 14,
+            image: "scottspark/scottSpark (14).jpg",
+            alt: "Scott Spark",
+          },
+          {
+            id: 15,
+            image: "scottspark/scottSpark (15).jpg",
+            alt: "Scott Spark",
           },
         ],
       },
